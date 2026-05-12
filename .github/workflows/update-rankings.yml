@@ -1,6 +1,9 @@
 name: Update rankings
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: "15 20 * * *"
   workflow_dispatch:
