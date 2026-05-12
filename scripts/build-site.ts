@@ -131,13 +131,18 @@ function renderSource(source, latestEvents) {
   const denominator = Math.min(10, visibleItems.length || 10);
   return `
     <article class="source source-${escapeHtml(source.id)}">
+      <div class="source-kpi">
+        <span>
+          <strong>${braunCount}/${denominator}</strong>
+          <small>Braun in top 10</small>
+        </span>
+      </div>
       <div class="source-head">
         <div>
           <p class="eyebrow">${escapeHtml(source.rankingType)}</p>
           <h2>${escapeHtml(source.name)}</h2>
         </div>
         <div class="source-badges">
-          <span class="braun-ratio">Braun ${braunCount}/${denominator}</span>
           <span class="status ${escapeHtml(source.status)}">${escapeHtml(source.status)}</span>
         </div>
       </div>
@@ -466,13 +471,43 @@ dd { margin: 6px 0 0; font-weight: 800; }
 .source-mybest { --source-accent: #0f766e; }
 .source-lohaco { --source-accent: #b45309; }
 .source-kakaku { --source-accent: #385c85; }
+.source-kpi {
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--source-accent) 18%, white), #ffffff 64%),
+    #ffffff;
+  border-top: 5px solid var(--source-accent);
+  padding: 14px 18px 12px;
+}
+.source-kpi span {
+  align-items: baseline;
+  background: color-mix(in srgb, var(--source-accent) 10%, white);
+  border: 1px solid color-mix(in srgb, var(--source-accent) 24%, white);
+  border-radius: 8px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  padding: 12px 14px;
+}
+.source-kpi strong {
+  color: var(--source-accent);
+  font-size: 2.05rem;
+  font-weight: 950;
+  line-height: .9;
+}
+.source-kpi small {
+  color: #3f4c55;
+  font-size: .76rem;
+  font-weight: 900;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  text-align: right;
+}
 .source-head {
   align-items: start;
-  border-top: 5px solid var(--source-accent);
   display: flex;
   gap: 18px;
   justify-content: space-between;
-  padding: 18px 18px 12px;
+  padding: 14px 18px 12px;
 }
 .source .eyebrow { color: var(--source-accent); }
 .source-badges {
@@ -480,15 +515,6 @@ dd { margin: 6px 0 0; font-weight: 800; }
   display: flex;
   flex-direction: column;
   gap: 8px;
-}
-.braun-ratio {
-  background: #17212b;
-  border-radius: 999px;
-  color: #fff;
-  font-size: .78rem;
-  font-weight: 900;
-  padding: 6px 10px;
-  white-space: nowrap;
 }
 h2 { margin: 0; font-size: 1.22rem; line-height: 1.18; }
 .source-meta, .details, .original { color: var(--muted); }

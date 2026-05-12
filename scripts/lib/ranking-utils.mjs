@@ -291,16 +291,17 @@ export function parseRankingSource(html, source) {
   const kakakuItems = source.id === "kakaku" ? extractKakakuItems(html, source.url, maxItems) : [];
   const jsonLd = kakakuItems.length ? [] : extractJsonLdItems(html, source.url, maxItems);
   const items = kakakuItems.length ? kakakuItems : (jsonLd.length ? jsonLd : extractRankedCards(html, source.url, maxItems));
+  const blocked = /アクセスを遮断しました|access denied|forbidden|blocked/i.test(stripTags(html));
   return {
     id: source.id,
     name: source.name,
     url: source.url,
     rankingType: source.rankingType,
     locale: source.locale,
-    status: items.length ? "ok" : "unavailable",
+    status: items.length ? "ok" : (blocked ? "blocked" : "unavailable"),
     checkedAt: new Date().toISOString(),
     sourceUpdatedAt: extractSourceUpdatedAt(html),
-    error: items.length ? null : "No ranking items could be extracted from the fetched page.",
+    error: items.length ? null : (blocked ? "Source blocked automated access from this environment." : "No ranking items could be extracted from the fetched page."),
     items
   };
 }
