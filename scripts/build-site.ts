@@ -130,26 +130,27 @@ function renderSource(source, latestEvents) {
   const braunCount = visibleItems.filter(isBraunProduct).length;
   const denominator = Math.min(10, visibleItems.length || 10);
   return `
-    <article class="source source-${escapeHtml(source.id)}">
+    <div class="source-column source-${escapeHtml(source.id)}">
       <div class="source-kpi">
-        <span>
-          <strong>${braunCount}/${denominator}</strong>
-          <small>Braun in top 10</small>
-        </span>
+        <p>Braun share</p>
+        <strong>${braunCount}/${denominator}</strong>
+        <small>products in this source's visible top 10</small>
       </div>
-      <div class="source-head">
-        <div>
-          <p class="eyebrow">${escapeHtml(source.rankingType)}</p>
-          <h2>${escapeHtml(source.name)}</h2>
+      <article class="source">
+        <div class="source-head">
+          <div>
+            <p class="eyebrow">${escapeHtml(source.rankingType)}</p>
+            <h2>${escapeHtml(source.name)}</h2>
+          </div>
+          <div class="source-badges">
+            <span class="status ${escapeHtml(source.status)}">${escapeHtml(source.status)}</span>
+          </div>
         </div>
-        <div class="source-badges">
-          <span class="status ${escapeHtml(source.status)}">${escapeHtml(source.status)}</span>
-        </div>
-      </div>
-      <p class="source-meta">Checked ${escapeHtml(formatDate(source.checkedAt))}${source.sourceUpdatedAt ? ` · Source update: ${escapeHtml(source.sourceUpdatedAt)}` : ""}</p>
-      <ol class="ranking">${items}</ol>
-      <a class="source-link" href="${escapeHtml(source.url)}">Open source ranking</a>
-    </article>
+        <p class="source-meta">Checked ${escapeHtml(formatDate(source.checkedAt))}${source.sourceUpdatedAt ? ` · Source update: ${escapeHtml(source.sourceUpdatedAt)}` : ""}</p>
+        <ol class="ranking">${items}</ol>
+        <a class="source-link" href="${escapeHtml(source.url)}">Open source ranking</a>
+      </article>
+    </div>
   `;
 }
 
@@ -462,8 +463,12 @@ dd { margin: 6px 0 0; font-weight: 800; }
   gap: 18px;
   padding-bottom: 42px;
 }
-.source {
+.source-column {
   --source-accent: var(--accent);
+  display: grid;
+  gap: 12px;
+}
+.source {
   box-shadow: var(--shadow);
   overflow: hidden;
   padding: 0;
@@ -473,37 +478,43 @@ dd { margin: 6px 0 0; font-weight: 800; }
 .source-kakaku { --source-accent: #385c85; }
 .source-kpi {
   background:
-    linear-gradient(135deg, color-mix(in srgb, var(--source-accent) 18%, white), #ffffff 64%),
+    linear-gradient(135deg, color-mix(in srgb, var(--source-accent) 28%, white), #ffffff 72%),
     #ffffff;
-  border-top: 5px solid var(--source-accent);
-  padding: 14px 18px 12px;
-}
-.source-kpi span {
-  align-items: baseline;
-  background: color-mix(in srgb, var(--source-accent) 10%, white);
-  border: 1px solid color-mix(in srgb, var(--source-accent) 24%, white);
+  border: 1px solid color-mix(in srgb, var(--source-accent) 28%, white);
+  border-top: 6px solid var(--source-accent);
   border-radius: 8px;
+  box-shadow: 0 14px 34px color-mix(in srgb, var(--source-accent) 18%, transparent);
+  min-height: 126px;
+  padding: 18px;
+}
+.source-kpi p {
+  color: var(--source-accent);
   display: flex;
-  gap: 10px;
+  font-size: .78rem;
+  font-weight: 950;
   justify-content: space-between;
-  padding: 12px 14px;
+  letter-spacing: .07em;
+  margin: 0 0 8px;
+  text-transform: uppercase;
 }
 .source-kpi strong {
   color: var(--source-accent);
-  font-size: 2.05rem;
+  display: block;
+  font-size: 3.15rem;
   font-weight: 950;
-  line-height: .9;
+  line-height: .92;
 }
 .source-kpi small {
   color: #3f4c55;
-  font-size: .76rem;
-  font-weight: 900;
-  letter-spacing: .05em;
-  text-transform: uppercase;
-  text-align: right;
+  display: block;
+  font-size: .88rem;
+  font-weight: 800;
+  line-height: 1.35;
+  margin-top: 8px;
 }
 .source-head {
   align-items: start;
+  border-top: 5px solid var(--source-accent);
   display: flex;
   gap: 18px;
   justify-content: space-between;
