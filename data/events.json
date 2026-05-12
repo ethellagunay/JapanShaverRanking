@@ -754,7 +754,7 @@
     "reasonText": "Lamdash Palm In ES-PV6A entered the tracked top 10 at #10."
   },
   {
-    "date": "2026-05-12T09:13:04.354Z",
+    "date": "2026-05-12T09:04:32.017Z",
     "sourceId": "mybest",
     "sourceName": "MyBest Electric Shaver Rankings",
     "productSignature": "パナソニック ラムダッシュ pro 6枚刃 es l690u",
@@ -783,7 +783,7 @@
     "reasonText": "Moved down 0 ranks after price dropped from ¥58,798 to ¥57,747."
   },
   {
-    "date": "2026-05-12T09:13:04.354Z",
+    "date": "2026-05-12T09:04:32.017Z",
     "sourceId": "mybest",
     "sourceName": "MyBest Electric Shaver Rankings",
     "productSignature": "p gジャパン braun シリーズ8 8603se",
@@ -812,7 +812,7 @@
     "reasonText": "Moved down 0 ranks while price increased from ¥39,800 to ¥43,780."
   },
   {
-    "date": "2026-05-12T09:13:04.354Z",
+    "date": "2026-05-12T09:04:32.017Z",
     "sourceId": "mybest",
     "sourceName": "MyBest Electric Shaver Rankings",
     "productSignature": "p gジャパン braun シリーズ7 72 c7500cc",
@@ -841,7 +841,7 @@
     "reasonText": "Moved down 0 ranks while price increased from ¥19,800 to ¥23,980."
   },
   {
-    "date": "2026-05-12T09:13:04.354Z",
+    "date": "2026-05-12T09:04:32.017Z",
     "sourceId": "lohaco",
     "sourceName": "LOHACO Electric Shaver Rankings",
     "productSignature": "貝印 kai 携帯用メンズシェーバー ポケシェーバー pockeshaver kq0369",
@@ -870,7 +870,7 @@
     "reasonText": "Moved down 0 ranks after price dropped from 3,300 円 to 1,280 円."
   },
   {
-    "date": "2026-05-12T09:13:04.354Z",
+    "date": "2026-05-12T09:04:32.017Z",
     "sourceId": "lohaco",
     "sourceName": "LOHACO Electric Shaver Rankings",
     "productSignature": "貝印 kai 携帯用メンズシェーバー ポケシェーバー pockeshaver kq0369",
@@ -899,7 +899,7 @@
     "reasonText": "Moved down 1 rank with no visible price, rating, or review-count driver in the captured data."
   },
   {
-    "date": "2026-05-12T09:13:04.354Z",
+    "date": "2026-05-12T09:04:32.017Z",
     "sourceId": "lohaco",
     "sourceName": "LOHACO Electric Shaver Rankings",
     "productSignature": "koizumi usb充電式 ノーズ フェイスシェーバー klc0851w 1個",
@@ -928,7 +928,7 @@
     "reasonText": "Moved down 0 ranks while price increased from 2,266 円 to 3,300 円."
   },
   {
-    "date": "2026-05-12T09:13:04.354Z",
+    "date": "2026-05-12T09:04:32.017Z",
     "sourceId": "lohaco",
     "sourceName": "LOHACO Electric Shaver Rankings",
     "productSignature": "koizumi usb充電式 ノーズ フェイスシェーバー klc0851w 1個",
@@ -957,7 +957,7 @@
     "reasonText": "Moved down 1 rank with no visible price, rating, or review-count driver in the captured data."
   },
   {
-    "date": "2026-05-12T09:13:04.354Z",
+    "date": "2026-05-12T09:04:32.017Z",
     "sourceId": "lohaco",
     "sourceName": "LOHACO Electric Shaver Rankings",
     "productSignature": "パナソニック メンズシェーバー 回転刃 es ks30 k プラグイン充電式 オートボルテージ機能",
@@ -986,7 +986,7 @@
     "reasonText": "Panasonic Men's shaver rotary blade ES-KS30-K plug-in rechargeable auto-voltage function entered the tracked top 10 at #7."
   },
   {
-    "date": "2026-05-12T09:13:04.354Z",
+    "date": "2026-05-12T09:04:32.017Z",
     "sourceId": "lohaco",
     "sourceName": "LOHACO Electric Shaver Rankings",
     "productSignature": "パナソニック メンズシェーバー 回転刃 es ks30 k プラグイン充電式 オートボルテージ機能",
@@ -1015,7 +1015,7 @@
     "reasonText": "Moved down 1 rank with no visible price, rating, or review-count driver in the captured data."
   },
   {
-    "date": "2026-05-12T09:13:04.354Z",
+    "date": "2026-05-12T09:04:32.017Z",
     "sourceId": "lohaco",
     "sourceName": "LOHACO Electric Shaver Rankings",
     "productSignature": "パナソニック ラムダッシュ パームイン es pv6a w 1台",
@@ -1044,7 +1044,7 @@
     "reasonText": "Panasonic Lamdash Palm In ES-PV6A-W 1 unit left the tracked top 10 from #10."
   },
   {
-    "date": "2026-05-12T09:13:04.354Z",
+    "date": "2026-05-12T09:04:32.017Z",
     "sourceId": "kakaku",
     "sourceName": "Kakaku.com Shaver Rankings",
     "productSignature": "ラムダッシュpro 5 es l571u s チタンシルバー",
@@ -1054,7 +1054,7 @@
     "rankBefore": 1,
     "rankAfter": 1,
     "priceBefore": "¥24,401",
-    "priceAfter": "¥24,180",
+    "priceAfter": "¥24,196",
     "ratingBefore": "4.59",
     "ratingAfter": "4.59",
     "reviewCountBefore": "7",
@@ -1069,11 +1069,11 @@
     "after": "ラムダッシュPRO 5 ES-L571U-S [チタンシルバー]",
     "beforeRank": 1,
     "afterRank": 1,
-    "id": "2026 05 12 kakaku price changed ラムダッシュpro 5 es l571u s チタンシルバー 1 24 401 4 59 7 1 24 180 4 59 7",
-    "reasonText": "Moved down 0 ranks after price dropped from ¥24,401 to ¥24,180."
+    "id": "2026 05 12 kakaku price changed ラムダッシュpro 5 es l571u s チタンシルバー 1 24 401 4 59 7 1 24 196 4 59 7",
+    "reasonText": "Moved down 0 ranks after price dropped from ¥24,401 to ¥24,196."
   },
   {
-    "date": "2026-05-12T09:13:04.354Z",
+    "date": "2026-05-12T09:04:32.017Z",
     "sourceId": "kakaku",
     "sourceName": "Kakaku.com Shaver Rankings",
     "productSignature": "ラムダッシュ パームイン lite es p330u",
@@ -1102,7 +1102,7 @@
     "reasonText": "Moved down 0 ranks after price dropped from ¥16,980 to ¥16,975."
   },
   {
-    "date": "2026-05-12T09:13:04.354Z",
+    "date": "2026-05-12T09:04:32.017Z",
     "sourceId": "kakaku",
     "sourceName": "Kakaku.com Shaver Rankings",
     "productSignature": "ラムダッシュpro 5 es l551d k マットブラック",
@@ -1112,7 +1112,7 @@
     "rankBefore": 3,
     "rankAfter": 3,
     "priceBefore": "¥21,230",
-    "priceAfter": "¥21,533",
+    "priceAfter": "¥21,535",
     "ratingBefore": "4.75",
     "ratingAfter": "4.75",
     "reviewCountBefore": "5",
@@ -1127,11 +1127,11 @@
     "after": "ラムダッシュPRO 5 ES-L551D-K [マットブラック]",
     "beforeRank": 3,
     "afterRank": 3,
-    "id": "2026 05 12 kakaku price changed ラムダッシュpro 5 es l551d k マットブラック 3 21 230 4 75 5 3 21 533 4 75 5",
-    "reasonText": "Moved down 0 ranks while price increased from ¥21,230 to ¥21,533."
+    "id": "2026 05 12 kakaku price changed ラムダッシュpro 5 es l551d k マットブラック 3 21 230 4 75 5 3 21 535 4 75 5",
+    "reasonText": "Moved down 0 ranks while price increased from ¥21,230 to ¥21,535."
   },
   {
-    "date": "2026-05-12T09:13:04.354Z",
+    "date": "2026-05-12T09:04:32.017Z",
     "sourceId": "kakaku",
     "sourceName": "Kakaku.com Shaver Rankings",
     "productSignature": "ラムダッシュ パームイン es pv3a k マットブラック",
@@ -1141,7 +1141,7 @@
     "rankBefore": 5,
     "rankAfter": 5,
     "priceBefore": "¥28,178",
-    "priceAfter": "¥28,028",
+    "priceAfter": "¥28,043",
     "ratingBefore": "4.45",
     "ratingAfter": "4.45",
     "reviewCountBefore": "49",
@@ -1156,11 +1156,11 @@
     "after": "ラムダッシュ パームイン ES-PV3A-K [マットブラック]",
     "beforeRank": 5,
     "afterRank": 5,
-    "id": "2026 05 12 kakaku price changed ラムダッシュ パームイン es pv3a k マットブラック 5 28 178 4 45 49 5 28 028 4 45 49",
-    "reasonText": "Moved down 0 ranks after price dropped from ¥28,178 to ¥28,028."
+    "id": "2026 05 12 kakaku price changed ラムダッシュ パームイン es pv3a k マットブラック 5 28 178 4 45 49 5 28 043 4 45 49",
+    "reasonText": "Moved down 0 ranks after price dropped from ¥28,178 to ¥28,043."
   },
   {
-    "date": "2026-05-12T09:13:04.354Z",
+    "date": "2026-05-12T09:04:32.017Z",
     "sourceId": "kakaku",
     "sourceName": "Kakaku.com Shaver Rankings",
     "productSignature": "ラムダッシュpro 5 es l551u s チタンシルバー",
@@ -1170,7 +1170,7 @@
     "rankBefore": 8,
     "rankAfter": 8,
     "priceBefore": "¥21,730",
-    "priceAfter": "¥21,618",
+    "priceAfter": "¥21,630",
     "ratingBefore": "4.80",
     "ratingAfter": "4.80",
     "reviewCountBefore": "7",
@@ -1185,11 +1185,11 @@
     "after": "ラムダッシュPRO 5 ES-L551U-S [チタンシルバー]",
     "beforeRank": 8,
     "afterRank": 8,
-    "id": "2026 05 12 kakaku price changed ラムダッシュpro 5 es l551u s チタンシルバー 8 21 730 4 80 7 8 21 618 4 80 7",
-    "reasonText": "Moved down 0 ranks after price dropped from ¥21,730 to ¥21,618."
+    "id": "2026 05 12 kakaku price changed ラムダッシュpro 5 es l551u s チタンシルバー 8 21 730 4 80 7 8 21 630 4 80 7",
+    "reasonText": "Moved down 0 ranks after price dropped from ¥21,730 to ¥21,630."
   },
   {
-    "date": "2026-05-12T09:13:04.354Z",
+    "date": "2026-05-12T09:04:32.017Z",
     "sourceId": "kakaku",
     "sourceName": "Kakaku.com Shaver Rankings",
     "productSignature": "ラムダッシュ es lvhx k ブラック",
@@ -1218,7 +1218,7 @@
     "reasonText": "Moved down 0 ranks after price dropped from ¥32,418 to ¥19,800."
   },
   {
-    "date": "2026-05-12T09:13:04.354Z",
+    "date": "2026-05-12T09:04:32.017Z",
     "sourceId": "kakaku",
     "sourceName": "Kakaku.com Shaver Rankings",
     "productSignature": "ラムダッシュ パームイン es pv6a",
