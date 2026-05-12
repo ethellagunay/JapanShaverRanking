@@ -1,0 +1,29 @@
+[
+  {
+    "id": "mybest",
+    "name": "MyBest Electric Shaver Rankings",
+    "url": "https://my-best.com/213",
+    "rankingType": "Editorial comparison ranking",
+    "locale": "ja-JP",
+    "adapter": "generic",
+    "maxItems": 10
+  },
+  {
+    "id": "lohaco",
+    "name": "LOHACO Electric Shaver Rankings",
+    "url": "https://lohaco.yahoo.co.jp/ranking/58435/52620/52647/53316/",
+    "rankingType": "Category sales ranking",
+    "locale": "ja-JP",
+    "adapter": "generic",
+    "maxItems": 10
+  },
+  {
+    "id": "kakaku",
+    "name": "Kakaku.com Shaver Rankings",
+    "url": "https://kakaku.com/kaden/shaver/",
+    "rankingType": "Popular sales ranking",
+    "locale": "ja-JP",
+    "adapter": "generic",
+    "maxItems": 10
+  }
+]

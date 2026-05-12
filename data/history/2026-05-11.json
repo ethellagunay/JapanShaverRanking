@@ -1,0 +1,83 @@
+{
+  "changed": true,
+  "generatedAt": "2026-05-11T13:35:17.315Z",
+  "changedSources": [
+    "mybest",
+    "lohaco",
+    "kakaku"
+  ],
+  "changes": [
+    {
+      "sourceId": "mybest",
+      "type": "new_rank",
+      "rank": 6,
+      "title": "P&Gジャパン BRAUN ｜ シリーズ7 ｜ 72-C7500cc"
+    },
+    {
+      "sourceId": "mybest",
+      "type": "new_rank",
+      "rank": 7,
+      "title": "パナソニック ラムダッシュ ｜ PRO 5枚刃 ｜ ES-L580U-S"
+    },
+    {
+      "sourceId": "mybest",
+      "type": "new_rank",
+      "rank": 8,
+      "title": "P&G BRAUN ｜ ミニ ｜ M-1013"
+    },
+    {
+      "sourceId": "mybest",
+      "type": "new_rank",
+      "rank": 9,
+      "title": "パナソニック ラムダッシュ ｜ 3枚刃 ｜ ES-L380W"
+    },
+    {
+      "sourceId": "mybest",
+      "type": "new_rank",
+      "rank": 10,
+      "title": "パナソニック ラムダッシュ ｜ パームイン ｜ ES-PV6A-K"
+    },
+    {
+      "sourceId": "lohaco",
+      "type": "new_rank",
+      "rank": 10,
+      "title": "パナソニック ラムダッシュ パームイン ES-PV6A-W 1台"
+    },
+    {
+      "sourceId": "lohaco",
+      "type": "new_rank",
+      "rank": 12,
+      "title": "パナソニック ラムダッシュ 3枚刃 ES-L361W-A 1台"
+    },
+    {
+      "sourceId": "kakaku",
+      "type": "new_rank",
+      "rank": 6,
+      "title": "ブラウン シリーズ9 Sport+ 9350cc [ブラック]"
+    },
+    {
+      "sourceId": "kakaku",
+      "type": "new_rank",
+      "rank": 7,
+      "title": "V8 Series IZF-V855W"
+    },
+    {
+      "sourceId": "kakaku",
+      "type": "new_rank",
+      "rank": 8,
+      "title": "ラムダッシュPRO 5 ES-L551U-S [チタンシルバー]"
+    },
+    {
+      "sourceId": "kakaku",
+      "type": "new_rank",
+      "rank": 9,
+      "title": "ラムダッシュ 3 ES-L321D-A [ダークネイビー]"
+    },
+    {
+      "sourceId": "kakaku",
+      "type": "new_rank",
+      "rank": 10,
+      "title": "ラムダッシュ パームイン ES-PV6A"
+    }
+  ]
+}

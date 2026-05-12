@@ -1,0 +1,44 @@
+name: Update rankings
+
+on:
+  schedule:
+    - cron: "15 20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Test
+        run: node --test tests/*.test.mjs
+      - name: Fetch and update snapshots
+        run: node scripts/update-rankings.ts
+        continue-on-error: false
+      - name: Build site
+        run: node scripts/build-site.ts
+      - name: Commit ranking changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update shaver ranking snapshots"
+          file_pattern: "data/*.json data/history/*.json"
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
