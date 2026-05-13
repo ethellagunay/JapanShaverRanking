@@ -248,21 +248,33 @@ function renderHistory(histories) {
 }
 
 function describeChange(change) {
-  if (change.reasonText) return `${change.sourceId}: ${change.reasonText}`;
+  const productName = changeProductName(change);
+  if (change.reasonText) {
+    return productName
+      ? `${change.sourceId}: ${productName} - ${change.reasonText}`
+      : `${change.sourceId}: ${change.reasonText}`;
+  }
   switch (change.type) {
     case "product_changed":
-      return `${change.sourceId}: rank ${change.rank} changed from ${change.before} to ${change.after}`;
+      return `${change.sourceId}: ${productName || `rank ${change.rank}`} changed from ${change.before} to ${change.after}`;
     case "rank_moved":
-      return `${change.sourceId}: ${change.title} moved from #${change.beforeRank} to #${change.afterRank}`;
+      return `${change.sourceId}: ${productName} moved from #${change.beforeRank} to #${change.afterRank}`;
     case "price_changed":
-      return `${change.sourceId}: ${change.title} price changed from ${change.before ?? "none"} to ${change.after ?? "none"}`;
+      return `${change.sourceId}: ${productName} price changed from ${change.before ?? "none"} to ${change.after ?? "none"}`;
     case "product_removed":
-      return `${change.sourceId}: ${change.title} was removed`;
+      return `${change.sourceId}: ${productName} was removed`;
     case "status_changed":
       return `${change.sourceId}: status changed from ${change.before} to ${change.after}`;
     default:
-      return `${change.sourceId}: ${change.message ?? change.type}`;
+      return `${change.sourceId}: ${productName ? `${productName} - ` : ""}${change.message ?? change.type}`;
   }
+}
+
+function changeProductName(change) {
+  const rawTitle = change.titleDisplay ?? change.titleOriginal ?? change.title;
+  if (rawTitle) return translateProductTitle(rawTitle);
+  if (change.productSignature) return change.productSignature;
+  return "";
 }
 
 function latestEventsByProduct(allEvents) {
