@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T05:07:19.073Z",
+  "generatedAt": "2026-05-31T05:23:30.144Z",
   "productScope": "Men's electric shavers in Japan",
   "language": "en",
   "sources": [
@@ -10,7 +10,7 @@
       "rankingType": "Editorial comparison ranking",
       "locale": "ja-JP",
       "status": "ok",
-      "checkedAt": "2026-05-24T05:07:17.102Z",
+      "checkedAt": "2026-05-31T05:23:27.862Z",
       "sourceUpdatedAt": null,
       "error": null,
       "items": [
@@ -19,7 +19,7 @@
           "titleOriginal": "P&Gジャパン BRAUN ｜ 電気シェーバー シリーズ9 Pro+ ｜ 9657cc",
           "titleDisplay": "P&Gジャパン BRAUN ｜ 電気シェーバー シリーズ9 Pro+ ｜ 9657cc",
           "brand": "P&Gジャパン",
-          "price": "¥46,599",
+          "price": "¥44,990",
           "rating": "4.76",
           "reviewCount": "3",
           "productUrl": "https://my-best.com/products/18113209",
@@ -30,7 +30,7 @@
           "titleOriginal": "パナソニック ラムダッシュ ｜ PRO 6枚刃 ｜ ES-L690U",
           "titleDisplay": "パナソニック ラムダッシュ ｜ PRO 6枚刃 ｜ ES-L690U",
           "brand": "パナソニック",
-          "price": "¥57,750",
+          "price": "¥58,850",
           "rating": "4.75",
           "reviewCount": "3",
           "productUrl": "https://my-best.com/products/4116100",
@@ -52,7 +52,7 @@
           "titleOriginal": "P&Gジャパン BRAUN ｜ シリーズ8 ｜ 8603se",
           "titleDisplay": "P&Gジャパン BRAUN ｜ シリーズ8 ｜ 8603se",
           "brand": "P&Gジャパン",
-          "price": "¥43,780",
+          "price": "¥39,800",
           "rating": "4.42",
           "reviewCount": "3",
           "productUrl": "https://my-best.com/213",
@@ -63,7 +63,7 @@
           "titleOriginal": "小泉成器 KOIZUMI ｜ USB充電5枚刃シェーバー ｜ KMC-0800/S",
           "titleDisplay": "小泉成器 KOIZUMI ｜ USB充電5枚刃シェーバー ｜ KMC-0800/S",
           "brand": "小泉成器",
-          "price": "¥9,405",
+          "price": "¥9,400",
           "rating": "4.27",
           "reviewCount": "3",
           "productUrl": "https://my-best.com/213",
@@ -74,7 +74,7 @@
           "titleOriginal": "P&Gジャパン BRAUN ｜ シリーズ7 ｜ 72-C7500cc",
           "titleDisplay": "P&Gジャパン BRAUN ｜ シリーズ7 ｜ 72-C7500cc",
           "brand": "P&Gジャパン",
-          "price": "¥29,280",
+          "price": "¥20,790",
           "rating": "4.26",
           "reviewCount": "3",
           "productUrl": "https://my-best.com/213",
@@ -85,7 +85,7 @@
           "titleOriginal": "パナソニック ラムダッシュ ｜ PRO 5枚刃 ｜ ES-L580U-S",
           "titleDisplay": "パナソニック ラムダッシュ ｜ PRO 5枚刃 ｜ ES-L580U-S",
           "brand": "パナソニック",
-          "price": "¥33,980",
+          "price": "¥25,891",
           "rating": "4.25",
           "reviewCount": "3",
           "productUrl": "https://my-best.com/213",
@@ -118,7 +118,7 @@
           "titleOriginal": "パナソニック ラムダッシュ ｜ パームイン ｜ ES-PV6A-K",
           "titleDisplay": "パナソニック ラムダッシュ ｜ パームイン ｜ ES-PV6A-K",
           "brand": "パナソニック",
-          "price": "¥34,681",
+          "price": "¥34,673",
           "rating": "3.99",
           "reviewCount": "3",
           "productUrl": "https://my-best.com/products/1610635",
@@ -133,7 +133,7 @@
       "rankingType": "Category sales ranking",
       "locale": "ja-JP",
       "status": "ok",
-      "checkedAt": "2026-05-24T05:07:18.636Z",
+      "checkedAt": "2026-05-31T05:23:29.741Z",
       "sourceUpdatedAt": null,
       "error": null,
       "items": [
@@ -150,17 +150,6 @@
         },
         {
           "rank": 2,
-          "titleOriginal": "KOIZUMI USB充電式 ノーズ＆フェイスシェーバー KLC0851W 1個",
-          "titleDisplay": "KOIZUMI USB充電式 ノーズ＆フェイスシェーバー KLC0851W 1個",
-          "brand": "コイズミ",
-          "price": "3,300 円",
-          "rating": null,
-          "reviewCount": null,
-          "productUrl": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/xw57932/",
-          "signature": "koizumi usb充電式 ノーズ フェイスシェーバー klc0851w 1個"
-        },
-        {
-          "rank": 3,
           "titleOriginal": "貝印（KAI）携帯用メンズシェーバー ポケシェーバー POCKESHAVER KQ0369",
           "titleDisplay": "貝印 KAI 携帯用メンズシェーバー ポケシェーバー POCKESHAVER KQ0369",
           "brand": "貝印",
@@ -169,6 +158,17 @@
           "reviewCount": null,
           "productUrl": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/2115901/",
           "signature": "貝印 kai 携帯用メンズシェーバー ポケシェーバー pockeshaver kq0369"
+        },
+        {
+          "rank": 3,
+          "titleOriginal": "KOIZUMI USB充電式 ノーズ＆フェイスシェーバー KLC0851W 1個",
+          "titleDisplay": "KOIZUMI USB充電式 ノーズ＆フェイスシェーバー KLC0851W 1個",
+          "brand": "コイズミ",
+          "price": "3,300 円",
+          "rating": null,
+          "reviewCount": null,
+          "productUrl": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/xw57932/",
+          "signature": "koizumi usb充電式 ノーズ フェイスシェーバー klc0851w 1個"
         },
         {
           "rank": 4,
@@ -182,18 +182,7 @@
           "signature": "ブラウン braun 携帯用メンズシェーバー モバイルシェーブ 1枚刃 まるごと水洗い m 90 1台 p g 旅行 持ち運び"
         },
         {
-          "rank": 8,
-          "titleOriginal": "パナソニック ラムダッシュ パームイン ES-PV6A-W 1台",
-          "titleDisplay": "パナソニック ラムダッシュ パームイン ES-PV6A-W 1台",
-          "brand": "パナソニック",
-          "price": "41,961 円",
-          "rating": null,
-          "reviewCount": null,
-          "productUrl": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/ep62756/",
-          "signature": "パナソニック ラムダッシュ パームイン es pv6a w 1台"
-        },
-        {
-          "rank": 10,
+          "rank": 6,
           "titleOriginal": "パナソニック メンズシェーバー 回転刃 ES-KS30-K プラグイン充電式 オートボルテージ機能",
           "titleDisplay": "パナソニック メンズシェーバー 回転刃 ES-KS30-K プラグイン充電式 オートボルテージ機能",
           "brand": "パナソニック",
@@ -202,6 +191,28 @@
           "reviewCount": null,
           "productUrl": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/x781928/",
           "signature": "パナソニック メンズシェーバー 回転刃 es ks30 k プラグイン充電式 オートボルテージ機能"
+        },
+        {
+          "rank": 9,
+          "titleOriginal": "パナソニック ラムダッシュ パームイン ES-PV6A-K 1台",
+          "titleDisplay": "パナソニック ラムダッシュ パームイン ES-PV6A-K 1台",
+          "brand": "パナソニック",
+          "price": "1,500円",
+          "rating": "2.81",
+          "reviewCount": null,
+          "productUrl": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/ep62758/",
+          "signature": "パナソニック ラムダッシュ パームイン es pv6a k 1台"
+        },
+        {
+          "rank": 12,
+          "titleOriginal": "パナソニック ラムダッシュ パームイン ES-PV6A-W 1台",
+          "titleDisplay": "パナソニック ラムダッシュ パームイン ES-PV6A-W 1台",
+          "brand": "パナソニック",
+          "price": "1,500円",
+          "rating": "2.81",
+          "reviewCount": null,
+          "productUrl": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/ep62756/",
+          "signature": "パナソニック ラムダッシュ パームイン es pv6a w 1台"
         }
       ]
     },
@@ -212,7 +223,7 @@
       "rankingType": "Popular sales ranking",
       "locale": "ja-JP",
       "status": "ok",
-      "checkedAt": "2026-05-24T05:07:19.072Z",
+      "checkedAt": "2026-05-31T05:23:30.142Z",
       "sourceUpdatedAt": "2026年2月6日",
       "error": null,
       "items": [
@@ -221,40 +232,40 @@
           "titleOriginal": "ラムダッシュPRO 5 ES-L571U-S [チタンシルバー]",
           "titleDisplay": "ラムダッシュPRO 5 ES-L571U-S [チタンシルバー]",
           "brand": "パナソニック",
-          "price": "¥24,605",
-          "rating": "4.62",
-          "reviewCount": "8",
+          "price": "¥24,499",
+          "rating": "4.64",
+          "reviewCount": "9",
           "productUrl": "https://kakaku.com/item/K0001702475/?lid=20190108pricemenu_ranking_1_pricedown",
           "signature": "ラムダッシュpro 5 es l571u s チタンシルバー"
         },
         {
           "rank": 2,
+          "titleOriginal": "ラムダッシュ ES-LVFX-K [ブラック]",
+          "titleDisplay": "ラムダッシュ ES-LVFX-K [ブラック]",
+          "brand": "パナソニック",
+          "price": "¥16,499",
+          "rating": "4.71",
+          "reviewCount": "7",
+          "productUrl": "https://kakaku.com/item/K0001719182/?lid=20190108pricemenu_ranking_1_pricedown",
+          "signature": "ラムダッシュ es lvfx k ブラック"
+        },
+        {
+          "rank": 3,
           "titleOriginal": "ラムダッシュ パームイン ES-PV3A-K [マットブラック]",
           "titleDisplay": "ラムダッシュ パームイン ES-PV3A-K [マットブラック]",
           "brand": "パナソニック",
-          "price": "¥27,172",
+          "price": "¥27,662",
           "rating": "4.45",
           "reviewCount": "49",
           "productUrl": "https://kakaku.com/item/K0001553565/?lid=20190108pricemenu_ranking_1_pricedown",
           "signature": "ラムダッシュ パームイン es pv3a k マットブラック"
         },
         {
-          "rank": 3,
-          "titleOriginal": "ラムダッシュ パームイン LITE ES-P330U",
-          "titleDisplay": "ラムダッシュ パームイン LITE ES-P330U",
-          "brand": "パナソニック",
-          "price": "¥16,884",
-          "rating": "4.31",
-          "reviewCount": "14",
-          "productUrl": "https://kakaku.com/item/J0000047800/?lid=20190108pricemenu_ranking_1",
-          "signature": "ラムダッシュ パームイン lite es p330u"
-        },
-        {
           "rank": 4,
           "titleOriginal": "ラムダッシュ 3 ES-L321W-K [ブラック]",
           "titleDisplay": "ラムダッシュ 3 ES-L321W-K [ブラック]",
           "brand": "パナソニック",
-          "price": "¥7,346",
+          "price": "¥7,290",
           "rating": "3.76",
           "reviewCount": "4",
           "productUrl": "https://kakaku.com/item/K0001702467/?lid=20190108pricemenu_ranking_1_pricedown",
@@ -262,17 +273,28 @@
         },
         {
           "rank": 5,
-          "titleOriginal": "ラムダッシュPRO 5 ES-L551D-K [マットブラック]",
-          "titleDisplay": "ラムダッシュPRO 5 ES-L551D-K [マットブラック]",
+          "titleOriginal": "ラムダッシュ パームイン LITE ES-P330U",
+          "titleDisplay": "ラムダッシュ パームイン LITE ES-P330U",
           "brand": "パナソニック",
-          "price": "¥21,332",
-          "rating": "4.75",
-          "reviewCount": "5",
-          "productUrl": "https://kakaku.com/item/K0001702474/?lid=20190108pricemenu_ranking_1_pricedown",
-          "signature": "ラムダッシュpro 5 es l551d k マットブラック"
+          "price": "¥16,390",
+          "rating": "4.31",
+          "reviewCount": "14",
+          "productUrl": "https://kakaku.com/item/J0000047800/?lid=20190108pricemenu_ranking_1",
+          "signature": "ラムダッシュ パームイン lite es p330u"
         },
         {
           "rank": 6,
+          "titleOriginal": "ラムダッシュPRO 5 ES-L551D-K [マットブラック]",
+          "titleDisplay": "ラムダッシュPRO 5 ES-L551D-K [マットブラック]",
+          "brand": "パナソニック",
+          "price": "¥21,314",
+          "rating": "4.75",
+          "reviewCount": "5",
+          "productUrl": "https://kakaku.com/item/K0001702474/?lid=20190108pricemenu_ranking_2_pricedown",
+          "signature": "ラムダッシュpro 5 es l551d k マットブラック"
+        },
+        {
+          "rank": 7,
           "titleOriginal": "ブラウン シリーズ9 Sport+ 9350cc [ブラック]",
           "titleDisplay": "ブラウン シリーズ9 Sport+ 9350cc [ブラック]",
           "brand": "ブラウン",
@@ -283,7 +305,18 @@
           "signature": "ブラウン シリーズ9 sport 9350cc ブラック"
         },
         {
-          "rank": 7,
+          "rank": 8,
+          "titleOriginal": "ラムダッシュ パームイン ES-PV6A",
+          "titleDisplay": "ラムダッシュ パームイン ES-PV6A",
+          "brand": "パナソニック",
+          "price": "¥32,984",
+          "rating": "4.50",
+          "reviewCount": "30",
+          "productUrl": "https://kakaku.com/item/J0000041950/?lid=20190108pricemenu_ranking_2",
+          "signature": "ラムダッシュ パームイン es pv6a"
+        },
+        {
+          "rank": 9,
           "titleOriginal": "V8 Series IZF-V855W",
           "titleDisplay": "V8 Series IZF-V855W",
           "brand": "マクセルイズミ",
@@ -294,37 +327,15 @@
           "signature": "v8 series izf v855w"
         },
         {
-          "rank": 8,
-          "titleOriginal": "ラムダッシュ ES-LVFX-K [ブラック]",
-          "titleDisplay": "ラムダッシュ ES-LVFX-K [ブラック]",
-          "brand": "パナソニック",
-          "price": "¥16,800",
-          "rating": "4.71",
-          "reviewCount": "7",
-          "productUrl": "https://kakaku.com/item/K0001719182/?lid=20190108pricemenu_ranking_2_pricedown",
-          "signature": "ラムダッシュ es lvfx k ブラック"
-        },
-        {
-          "rank": 8,
-          "titleOriginal": "ラムダッシュ パームイン ES-PV6A",
-          "titleDisplay": "ラムダッシュ パームイン ES-PV6A",
-          "brand": "パナソニック",
-          "price": "¥32,580",
-          "rating": "4.50",
-          "reviewCount": "30",
-          "productUrl": "https://kakaku.com/item/J0000041950/?lid=20190108pricemenu_ranking_2",
-          "signature": "ラムダッシュ パームイン es pv6a"
-        },
-        {
           "rank": 10,
-          "titleOriginal": "9000シリーズ S969",
-          "titleDisplay": "9000シリーズ S969",
-          "brand": "フィリップス",
-          "price": "¥14,100",
-          "rating": "4.73",
-          "reviewCount": "11",
-          "productUrl": "https://kakaku.com/item/J0000040682/?lid=20190108pricemenu_ranking_2",
-          "signature": "9000シリーズ s969"
+          "titleOriginal": "ラムダッシュPRO 5 ES-L571D-K [マットブラック]",
+          "titleDisplay": "ラムダッシュPRO 5 ES-L571D-K [マットブラック]",
+          "brand": "パナソニック",
+          "price": "¥24,082",
+          "rating": "4.82",
+          "reviewCount": "3",
+          "productUrl": "https://kakaku.com/item/K0001702476/?lid=20190108pricemenu_ranking_2_rating_pricedown",
+          "signature": "ラムダッシュpro 5 es l571d k マットブラック"
         }
       ]
     }
